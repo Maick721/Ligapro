@@ -4,6 +4,9 @@ html{
         font-family: 'times ', Times, serif, sans-serif;
         margin: 100px;
         background-color: #b5dde9b6;
+        padding: 12px;
+        line-height: 1.899;
+        font-style: normal;
     }
     /*Cambiar el color del titulo y subtitulo*/
 
