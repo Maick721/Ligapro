@@ -1,0 +1,118 @@
+html{
+    
+    body {
+        font-family: 'times ', Times, serif, sans-serif;
+        margin: 100px;
+        background-color: #b5dde9b6;
+    }
+    /*Cambiar el color del titulo y subtitulo*/
+
+    h1{
+       color: indigo;
+        text-align: center;
+        font-size: 60px;
+    }
+    h2, h3 {
+
+        color: #ff0000; 
+        text-align: center;
+        font-size: 60px;
+    }
+    h4{
+        color: black;
+        font-size: 40px;
+    }
+    
+    /*Cambier el tamaño o color de la letra*/
+    h5{
+        color: #110328;
+        font-size: 17px;
+        text-align: center;
+        /*Estilos a los links */
+            
+        a{
+            color: darkred;
+            transition: all 0.3s ease-in-out;
+        }   
+
+        a:hover,
+        /* cunado coloca el mouse el color */
+        a:focus,
+        /* da como un brillo que no se nota tanto */
+        a:active{
+            color: darkgoldenrod;
+        }
+
+        a:hover,
+        a:active{
+            outline: 0;
+        }
+        /*TIPOGRAFIA*/
+        h1,h2,h3,h4,h5,h6 .h1,.h2,.h3,.h4,.h5,.h6{
+            font-family: "Franck Ruh1 libre", serif;
+            font-weight: 500;
+            font-style: normal;
+            color: black;
+        }
+        h1,
+        .h1,
+        h2,
+        .h2,
+        h3,
+        .h3,
+        h4,
+        .h4{
+            margin-top: 6rem;
+            /*margen hacia abajo */
+
+            margin-bottom: 16rem;
+            /*margen hacia arriba */
+
+        }
+
+        @media screen and (max-width:600px) {
+
+            h1,
+            .h1,
+            h2,
+            .h2,
+            h3,
+            .h3,
+            h4,
+            .h4 {
+                margin-top: 6rem;
+                /*margen hacia arriba */
+                }
+        }
+
+    /*Estilos de la Tabla*/
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 ;
+        color: rgb(1, 16, 16);
+    }
+
+    th, td {
+        border: 1px solid #050404;
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color: #e2f700;
+        color: rgb(3, 0, 0);
+    }
+
+    /*Cambia el tamaño de la imagen*/
+    img {
+        width: 100px;
+        height: auto;
+        vertical-align: middle;
+        margin-right: 30px;
+    }
+
+
+
+}
+       
